@@ -10,13 +10,13 @@ public class Principal {
                 "Conversor de Moeda").toString();
         switch (opcoes) {
             case "Conversor de Moeda":
-                String input = JOptionPane.showInputDialog("Insira um valor");
+                String input = JOptionPane.showInputDialog("Insira um valor que deseja converter");
                 double valorRecebido = Double.parseDouble(input);
                 Funcao moedas = new Funcao();
                 moedas.ConverterMoedas(valorRecebido);
                 break;
             case "Conversor de Temperatura":
-                String input2 = JOptionPane.showInputDialog("Insira um valor");
+                String input2 = JOptionPane.showInputDialog("Insira um valor que deseja converter");
                 double valorRecebido2 = Double.parseDouble(input2);
                 Funcao temperaturas = new Funcao();
                 temperaturas.ConverterTemperaturas(valorRecebido2);
