@@ -11,16 +11,19 @@ public class Principal {
         switch (opcoes) {
             case "Conversor de Moeda":
                 String input = JOptionPane.showInputDialog("Insira um valor que deseja converter");
+                Validacao.validar(input);
                 double valorRecebido = Double.parseDouble(input);
                 Funcao moedas = new Funcao();
                 moedas.ConverterMoedas(valorRecebido);
                 break;
             case "Conversor de Temperatura":
                 String input2 = JOptionPane.showInputDialog("Insira um valor que deseja converter");
+                Validacao.validar(input2);
                 double valorRecebido2 = Double.parseDouble(input2);
                 Funcao temperaturas = new Funcao();
                 temperaturas.ConverterTemperaturas(valorRecebido2);
                 break;
         }
     }
+
 }

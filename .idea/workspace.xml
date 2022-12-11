@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bd9627c-650a-4c14-8727-efec006deaef" name="Changes" comment="adicionando novas moedas para converter">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="5bd9627c-650a-4c14-8727-efec006deaef" name="Changes" comment="add README.md">
+      <change afterPath="$PROJECT_DIR$/src/conversorMoedas/Validacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conversorMoedas/Funcao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conversorMoedas/Funcao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conversorMoedas/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conversorMoedas/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Principal">
     <configuration name="ConversorMoedas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conversorMoedas.ConversorMoedas" />
@@ -97,7 +104,11 @@
       <updated>1670678188710</updated>
       <workItem from="1670678189184" duration="5062000" />
       <workItem from="1670711970508" duration="47000" />
-      <workItem from="1670712780462" duration="1564000" />
+      <workItem from="1670712780462" duration="2359000" />
+      <workItem from="1670715177291" duration="66000" />
+      <workItem from="1670715344357" duration="726000" />
+      <workItem from="1670758647189" duration="89000" />
+      <workItem from="1670759272807" duration="4925000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World">
       <created>1670678264232</created>
@@ -113,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670713920538</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add README.md">
+      <created>1670714408531</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670714408531</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello World" />
     <MESSAGE value="adicionando novas moedas para converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando novas moedas para converter" />
+    <MESSAGE value="add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
   </component>
 </project>

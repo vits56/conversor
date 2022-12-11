@@ -4,6 +4,7 @@ import javax.swing.*;
 
 public class Funcao {
     ConversorMoedas conversorMoedas = new ConversorMoedas();
+
     public void ConverterMoedas(double valorRecebido) {
         String opcao = (JOptionPane.showInputDialog(null,
                 "Escolha a moeda para qual você deseja converter seu dinheiro", "Moedas", JOptionPane.PLAIN_MESSAGE, null, new Object[]{"De Reais a Dólares", "De Dólares a Reais", "De Reais a Euro", "De Euro a Reais", "De Reais Para Libras Esterlinas", "De Libras Esterlinas Para Reais", "De Reais Para Peso Argentino", "De Peso Argentino Para Reais", "DE Reais Para Peso Chileno", "De Peso Chileno Para Reais"}, "Escolha")).toString();
