@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bd9627c-650a-4c14-8727-efec006deaef" name="Changes" comment="validação de letras e caracteres especias">
-      <change afterPath="$PROJECT_DIR$/src/conversorMoedas/ConversorQuilometro.java" afterDir="false" />
+    <list default="true" id="5bd9627c-650a-4c14-8727-efec006deaef" name="Changes" comment="conversao de quilometro, metro e milha.">
+      <change afterPath="$PROJECT_DIR$/src/conversorMoedas/ConversorDeAnosLuz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/conversorMoedas/Funcao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conversorMoedas/Funcao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/conversorMoedas/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conversorMoedas/Principal.java" afterDir="false" />
     </list>
@@ -107,7 +108,7 @@
       <workItem from="1670715177291" duration="66000" />
       <workItem from="1670715344357" duration="726000" />
       <workItem from="1670758647189" duration="89000" />
-      <workItem from="1670759272807" duration="6035000" />
+      <workItem from="1670759272807" duration="6840000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World">
       <created>1670678264232</created>
@@ -137,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670802559455</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="conversao de quilometro, metro e milha.">
+      <created>1670803699412</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670803699412</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +167,7 @@
     <MESSAGE value="adicionando novas moedas para converter" />
     <MESSAGE value="add README.md" />
     <MESSAGE value="validação de letras e caracteres especias" />
-    <option name="LAST_COMMIT_MESSAGE" value="validação de letras e caracteres especias" />
+    <MESSAGE value="conversao de quilometro, metro e milha." />
+    <option name="LAST_COMMIT_MESSAGE" value="conversao de quilometro, metro e milha." />
   </component>
 </project>

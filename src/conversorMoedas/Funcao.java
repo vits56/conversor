@@ -58,11 +58,12 @@ public class Funcao {
     }
 
     ConversorQuilometro conversorQuilometros = new ConversorQuilometro();
+
     public void ConverterQuilometros(double valorRecebido3) {
         String opcao = (JOptionPane.showInputDialog(null,
                 "Escolha a medida para qual você deseja converter", "Medidas", JOptionPane.PLAIN_MESSAGE, null, new Object[]{"De Quilometros a Metros", "De Metros a Quilometros", "De Quilometros a Milhas", "De Milhas a Quilometros", "De milhas a Metros", "De Metros a Milhas"}, "Escolha")).toString();
         switch (opcao) {
-case "De Quilometros a Metros":
+            case "De Quilometros a Metros":
                 conversorQuilometros.ConverterQuilometroParaMetro(valorRecebido3);
                 break;
             case "De Metros a Quilometros":
@@ -79,6 +80,27 @@ case "De Quilometros a Metros":
                 break;
             case "De Metros a Milhas":
                 conversorQuilometros.ConverterMetroParaMilha(valorRecebido3);
+                break;
+        }
+    }
+
+    ConversorDeAnosLuz conversorDeAnosLuz = new ConversorDeAnosLuz();
+
+    public void ConverterAnosLuz(double valorRecebido4) {
+        String opcao = (JOptionPane.showInputDialog(null,
+                "Escolha a medida para qual você deseja converter", "Medidas", JOptionPane.PLAIN_MESSAGE, null, new Object[]{"De Anos Luz a Quilometros", "De Quilometros a Anos Luz", "De Anos Luz Para Milhas", "De Milhas Para Anos Luz"}, "Escolha")).toString();
+        switch (opcao) {
+            case "De Anos Luz a Quilometros":
+                conversorDeAnosLuz.ConverterAnosLuzParaQuilometros(valorRecebido4);
+                break;
+            case "De Quilometros a Anos Luz":
+                conversorDeAnosLuz.ConverterQuilometrosParaAnosLuz(valorRecebido4);
+                break;
+            case "De Anos Luz Para Milhas":
+                conversorDeAnosLuz.ConverterAnosLuzParaMilhas(valorRecebido4);
+                break;
+            case "De Milhas Para Anos Luz":
+                conversorDeAnosLuz.ConverterMilhasParaAnosLuz(valorRecebido4);
                 break;
         }
     }

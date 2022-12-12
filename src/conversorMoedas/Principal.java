@@ -6,7 +6,7 @@ public class Principal {
 
     public static void main(String[] args) {
         String opcoes = JOptionPane.showInputDialog(null, "Escolha uma opção", "Menu",
-                JOptionPane.PLAIN_MESSAGE, null, new Object[]{"Conversor de Moeda", "Conversor de Temperatura", "Conversor de Quilometros"},
+                JOptionPane.PLAIN_MESSAGE, null, new Object[]{"Conversor de Moeda", "Conversor de Temperatura", "Conversor de Quilometros", "Conversor de Anos Luz"},
                 "Conversor de Moeda").toString();
         switch (opcoes) {
             case "Conversor de Moeda":
@@ -29,6 +29,13 @@ public class Principal {
                 double valorRecebido3 = Double.parseDouble(input3);
                 Funcao quilometros = new Funcao();
                 quilometros.ConverterQuilometros(valorRecebido3);
+                break;
+            case "Conversor de Anos Luz":
+                String input4 = JOptionPane.showInputDialog("Insira um valor que deseja converter");
+                Validacao.validar(input4);
+                double valorRecebido4 = Double.parseDouble(input4);
+                Funcao anosLuz = new Funcao();
+                anosLuz.ConverterAnosLuz(valorRecebido4);
                 break;
         }
     }
