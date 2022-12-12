@@ -57,5 +57,29 @@ public class Funcao {
         }
     }
 
-
+    ConversorQuilometro conversorQuilometros = new ConversorQuilometro();
+    public void ConverterQuilometros(double valorRecebido3) {
+        String opcao = (JOptionPane.showInputDialog(null,
+                "Escolha a medida para qual você deseja converter", "Medidas", JOptionPane.PLAIN_MESSAGE, null, new Object[]{"De Quilometros a Metros", "De Metros a Quilometros", "De Quilometros a Milhas", "De Milhas a Quilometros", "De milhas a Metros", "De Metros a Milhas"}, "Escolha")).toString();
+        switch (opcao) {
+case "De Quilometros a Metros":
+                conversorQuilometros.ConverterQuilometroParaMetro(valorRecebido3);
+                break;
+            case "De Metros a Quilometros":
+                conversorQuilometros.ConverterMetroParaQuilometro(valorRecebido3);
+                break;
+            case "De Quilometros a Milhas":
+                conversorQuilometros.ConverterQuilometroParaMilha(valorRecebido3);
+                break;
+            case "De Milhas a Quilometros":
+                conversorQuilometros.ConverterMilhaParaQuilometro(valorRecebido3);
+                break;
+            case "De milhas a Metros":
+                conversorQuilometros.ConverterMilhaParaMetro(valorRecebido3);
+                break;
+            case "De Metros a Milhas":
+                conversorQuilometros.ConverterMetroParaMilha(valorRecebido3);
+                break;
+        }
+    }
 }
