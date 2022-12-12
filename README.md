@@ -2,7 +2,7 @@
 
 ## Descrição
 
-<h3>Conversor de moedas.</h3>
+<h3>Este projeto é um conversor de moedas feito em Java com a biblioteca Swing.</h3>
 <h3>Neste projeto foi utilizado a linguagem Java 17, com a IDE IntelliJ.</h3>
 <h3>Este é mais um desafio do programa Oracle Next Education - One.</h3>
 
