@@ -11,7 +11,7 @@ Este é mais um desafio do programa Oracle Next Education - One.
 
 <h2>Demostração da Aplicação</h2>
 
-![Conversor](media\projeto.gif)
+<img alt="Conversor" src="media\projeto.gif"/>
 
 <p>Antes de começar, você precisará ter instalado em sua máquina as seguintes ferramentas:</p>
 <table>
