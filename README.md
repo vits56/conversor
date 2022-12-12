@@ -29,16 +29,10 @@ Este é mais um desafio do programa Oracle Next Education - One.
 </tr>
 
 </table>
-<h4>** Visando facilitar a demostração da aplicação, recomendo instalar apenas o IntelliJ IDEA e rodar o projeto através da IDE **</h4>
 
 
-### No Terminal/Console:
+<h4>** Visando facilitar a demostração da aplicação, recomendo instalar apenas o IntelliJ IDEA e rodar o projeto através da IDE, executando o arquivo Principal.java **</h4>
 
-<ol>
-    <li>Faça um clone do projeto na sua máquina: <code>https://github.com/vits56/conversor.git</code> </li>
-    <li>Entre na pasta raiz do projeto: <code>cd conversor</code></li>
-    <li>Execute o comando: <code>./gradlew bootrun</code> </li>
-</ol>
 
 
 Made with 💜 by <a href="https://github.com/vits56" target="_blank">Bruno Bastos Duarte</a>
